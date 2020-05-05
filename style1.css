@@ -1,0 +1,163 @@
+.heading_format, .row2 h4, .row3 h4, .row4 h4, #rows3 h4, .social2 h4, .social3 h4, .social4 h4 {
+  color: #07427a;
+  font-family: Lemon Milk, Arial;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.content_format, .row2 h6, .row4 span, .social2 p, .social4 p, .social3 p {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  padding: 3px;
+}
+
+.row2, .row4, #rows2, #rows3, .social2, .social4 {
+  background-color: #52c7f5;
+  width: 100%;
+}
+
+.row1 {
+  text-align: center;
+  padding: 2px;
+}
+
+.row2, .row3, .row4, #rows3, .social2, .social3, .social4 {
+  padding-bottom: 30px;
+}
+
+.row3 h6 {
+  color: black;
+  font-size: 20px;
+  padding: 3px;
+}
+
+.row4 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.row4 h6 {
+  color: white;
+  margin-left: 25px;
+}
+
+.row4 span {
+  padding-right: 30px;
+}
+
+#rows2 {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: Lemon Milk, Arial;
+}
+
+#rows2 div {
+  padding: 20px;
+}
+
+.col-sm {
+  font-family: Lemon Milk, Arial;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.col-sm header:hover {
+  color: yellow;
+}
+
+.social2, .social3, .social4 {
+  padding: 5px;
+}
+
+.social2 div, .social3 div, .social4 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social2 div img, .social3 div img, .social4 div img {
+  padding: 10px;
+}
+
+.social2 h5, .social4 h5 {
+  color: white;
+  font-family: Lemon Milk, Arial;
+  font-size: 30px;
+}
+
+.social3 h5 {
+  color: #07427a;
+  font-family: Lemon Milk, Arial;
+  font-size: 30px;
+}
+
+.social3 p {
+  color: black;
+}
+
+.grid1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+hr {
+  background-color: #07427a;
+  width: 80%;
+}
+
+@media (min-width: 900px) {
+  .grid1 div {
+    padding-bottom: 20px;
+  }
+  .Graphic-images img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  #rows2 img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 899px) {
+  .grid1 img {
+    padding-top: 50px;
+  }
+  .Graphic-images {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  #rows2 img {
+    width: 500px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style1.css.map */

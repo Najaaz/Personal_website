@@ -1,0 +1,159 @@
+$base-color: #52c7f5;
+$primary-color:#07427a;
+$base-font : Lemon Milk  ;
+
+.heading_format{
+    color:$primary-color;
+    font-family: $base-font;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.content_format{
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding: 3px;
+}
+
+.row2 ,.row4 ,#rows2 ,#rows3 ,.social2 ,.social4{
+    background-color: $base-color;
+    width: 100%;
+}
+
+.row1{
+    text-align: center;
+    padding: 2px;
+}
+
+.row2 ,.row3, .row4 ,#rows3 ,.social2 ,.social3 ,.social4{
+    padding-bottom: 30px;
+    h4{
+        @extend .heading_format
+    }
+}
+
+.row2{
+    h6{
+        @extend .content_format;
+    }
+}
+
+.row3 {
+    h6{
+        color: black;
+        font-size: 20px;
+        padding: 3px;
+    }
+}
+
+.row4{
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+    h6{
+        color: white;
+        margin-left: 25px;
+    } 
+    span{
+        @extend .content_format;
+        padding-right: 30px;
+    }  
+}
+
+#rows2{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: $base-font;
+    div{
+        padding:20px;
+    }
+}
+
+.col-sm{
+    font-family: $base-font;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    header:hover {
+        color: yellow;
+    }
+}
+.social2 ,.social3 ,.social4{
+    padding: 5px;
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        img{
+            padding: 10px;
+        }
+    }
+    
+}
+
+.social2 ,.social4{
+    h5{
+        color: white;
+        font-family: $base-font;
+        font-size: 30px;
+    }
+    p{
+        @extend .content_format
+    }
+}
+
+.social3{
+    h5{
+        color:$primary-color;
+        font-family: $base-font;
+        font-size: 30px;
+    }
+    p{
+        @extend .content_format;
+        color: black;
+    }
+}
+
+.grid1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+hr{
+    background-color:$primary-color;
+    width: 80%;
+}
+
+@media (min-width: 900px){
+    .grid1 div{
+        padding-bottom: 20px;;
+    }
+    .Graphic-images img{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #rows2 img{
+        width: 600px;
+    }
+}
+
+@media (max-width: 899px){
+    .grid1 img{
+        padding-top: 50px;;
+    }
+    .Graphic-images{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #rows2 img{
+        width: 500px;
+        margin: auto;
+    }
+}
