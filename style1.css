@@ -1,6 +1,6 @@
 .heading_format, .row2 h4, .row3 h4, .row4 h4, #rows3 h4, .social2 h4, .social3 h4, .social4 h4 {
   color: #07427a;
-  font-family: Lemon Milk, Arial;
+  font-family: Lemon Milk;
   font-size: 40px;
   padding: 5px;
 }
@@ -64,7 +64,7 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-family: Lemon Milk, Arial;
+  font-family: Lemon Milk;
 }
 
 #rows2 div {
@@ -72,7 +72,7 @@
 }
 
 .col-sm {
-  font-family: Lemon Milk, Arial;
+  font-family: Lemon Milk;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -103,13 +103,13 @@
 
 .social2 h5, .social4 h5 {
   color: white;
-  font-family: Lemon Milk, Arial;
+  font-family: Lemon Milk;
   font-size: 30px;
 }
 
 .social3 h5 {
   color: #07427a;
-  font-family: Lemon Milk, Arial;
+  font-family: Lemon Milk;
   font-size: 30px;
 }
 
@@ -141,7 +141,7 @@ hr {
     margin-bottom: auto;
   }
   #rows2 img {
-    width: 600px;
+    width: 500px;
   }
 }
 
@@ -156,8 +156,7 @@ hr {
         align-content: center;
   }
   #rows2 img {
-    width: 500px;
-    margin: auto;
+    width: 400px;
   }
 }
 /*# sourceMappingURL=style1.css.map */
